@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="./images/favicon.ico">
+  <title>PiyoAlbum</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="./libs/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="./libs/bootstrap/carousel.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/custom.css">
+  <style>
+    /* Custom styles */
+    .first-button {
+      margin-left: 10px; /* Adjust the left margin of the first button */
+    }
+    .aaa {
+      text-align: center;
+    }
+    .bbb {
+      text-align: center;
+    }
+    .background-container {
+      background-color: #f0f0f0; /* 背景色を設定 */
+      padding: 20px; /* カードと背景の間にスペースを追加 */
+      border-radius: 10px; /* 角を丸くする */
+      margin-top: 150px; /* 背景色を下に移動 */
+    }
+    .card-custom {
+      max-width: 17rem;
+      margin: 20px auto; /* カード間の余白を自動で設定 */
+    }
+	.card-container {
+      display: flex;
+      justify-content: space-between;
+    }
+    @media (min-width: 768px) {
+      .card-custom {
+        margin: 20px; /* 大きな画面での余白を調整 */
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header(Start) -->
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./images/logo.png" alt="PiyoAlbum">PiyoAlbum
+        </a>
+      </div>
+    </nav>
+  </header>
+  <!-- Header(End) -->
+
+  <!-- Main(Start) -->
+  <main>
+
+    <p>ここから始めましょう!!</p>
+    <div class="container">
+      <h1 class="aaa">Portfolios</h1>
+      <h4 class="bbb">ポートフォリオサイトは自信が作った作品をまとめた<br>webサイトのことで、新しいクライアントに<br>対してスキルや実績をアピールすることを目的と<br>しています。</h4>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col text-center mb-4">
+          <button type="button" class="btn btn-primary first-button">Main call to action</button>
+          <button type="button" class="btn btn-secondary">Secondariy action</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="background-container">
+        <div class="row card-container">
+          <div class="col-md-4 mb-4">
+            <div class="card card-custom">
+              <img class="card-img-top" src="images/logo_html.png" alt="カード">
+              <div class="card-body">
+                <p class="card-text">Hiper Text Markup Langage(ハイパーテキスト マークアップ ランゲージ)は、マークアップを記述するためのマークアップ言語の一つで主にWorld Wide Web(www)において、webページを表現するために用いられます。</p>
+                <a href="#" class="btn btn-primary">Demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="card card-custom">
+              <img class="card-img-top" src="images/logo_css.png" alt="カード">
+              <div class="card-body">
+                <p class="card-text">CSS(Cascatding Style Sheets)は、HTMLやXMLの要素をどのように修飾(表示)するかを指示する仕様の一つで、文章の構造と大裁を分離させるという理念を表現するために提喝されたスタイルシートの具体的な仕様の一つです。</p>
+                <a href="#" class="btn btn-primary">Demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="card card-custom">
+              <img class="card-img-top" src="images/logo_javascript.png" alt="カード">
+              <div class="card-body">
+                <p class="card-text">JavaScriptはプログラミング言語であり、HTMLとCSSと並ぶ、WWWの中核技術の一つである。利用される場面はフロント/バックエンド、アプリなど、ブラウザからサーバ、デスクトップからスマートフォンまで多岐にわたります。</p>
+                <a href="#" class="btn btn-primary">Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row card-container">
+          <div class="col-md-4 mb-4">
+            <div class="card card-custom">
+              <img class="card-img-top" src="images/logo_jquery.png" alt="カード">
+              <div class="card-body">
+                <p class="card-text">jQuery(ジェイクエリー)は、Webブラウザ用のJavaScriptコードをより容易に記述できるようにするために設計されたJavaScriptライブラリです。ジョン・レシグが2006年1月に開催された"BarCanp NYC"でリリースしました</p>
+                <a href="#" class="btn btn-primary">Demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="card card-custom">
+              <img class="card-img-top" src="images/logo_bootstrap.png" alt="カード">
+              <div class="card-body">
+                <p class="card-text">Bootstrapはウェブサイトやwebアプリケーションを作成するフロントエンドフレームワークである。タイポグラフィー、フォーム、ボタン、ナビゲーション、その他構成要素や拡張など、HTMLおよびCSSベースのテンプレートとして用意されています。</p>
+                <a href="#" class="btn btn-primary">Demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="card card-custom">
+              <img class="card-img-top" src="images/logo_vue.png" alt="カード">
+              <div class="card-body">
+                <p class="card-text">Vue.jsはwebアプリケーションにおけるユーザインターフェースを構築するための、JavaScriptフレームワークである。他のJavaScriptライブラリを使用するプロジェクトの導入において、容易になるように設計されています。</p>
+                <a href="#" class="btn btn-primary">Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <!-- Main(End) -->
+
+  <!-- Footer(Start) -->
+  <footer>
+    <div class="container text-muted py-5">
+      <p class="float-end mb-1"><a href="#">Back to top</a></p>
+      <p class="mb-1">&copy; Bootstrap</p>
+      <p class="mb-0">
+        <a href="https://getbootstrap.jp" target="_blank">Bootstap公式サイト</a>や
+        <a href="https://getbootstrap.jp/docs/5.0/getting-started/introduction/" target="_blank">スタートガイド</a>、
+        <a href="https://icons.getbootstrap.com/" target="_blank">アイコン</a>を活用しましょう。
+      </p>
+    </div>
+  </footer>
+  <!-- Footer(End) -->
+
+  <!-- JavaScript -->
+  <script src="./libs/jquery/jquery-3.6.1.min.js"></script>
+  <script src="./libs/bootstrap/popper.min.js"></script>
+  <script src="./libs/bootstrap/bootstrap.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
